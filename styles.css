@@ -1,0 +1,234 @@
+.uno{
+    display: flex;
+    justify-content: space-between;/* alinea los eementos dentro del contenedor flexible */
+    flex-wrap: wrap;
+
+}
+#b1{
+    border-radius: 25px;
+    background-color: greenyellow;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+#b2{
+    border-radius: 25px;
+    border: 2px solid blueviolet;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+#b3{
+    border-radius: 25px;
+    background-image: url('https://res.cloudinary.com/deqbqghhq/image/upload/v1666178495/13311414_v627-aew-41-technologybackground_u9x4az.jpg');
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    color :azure
+}
+#b4{
+    border-radius: 15px 50px 30px 5px  ;
+    background-color: red;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+
+}
+#b5{
+    border-radius: 45% ;
+    background-color: gold;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#b{
+    border: 20px solid greenyellow;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    padding: 20px;
+    background-color: darkred;
+    color:azure;
+    border-image/* -source */: url(maqueta-marco-oro_53876-88370.webp) 400 stretch;
+ /*    border-image-slice: 25%;
+    border-image-repeat:repeat round;
+    border-image-width: 50px;
+    border-image-outset: 10px; */
+}
+#fondo{
+padding: 25px;
+border: 12px solid red;
+width: 340px;
+height: 280px;
+/* background: url(gato.png) top 40px left  / 80px   no-repeat; *//* //background(ruta)(posicion)(dimension)no-repeat */
+/*  background: url(pelota.jpg) top / 100px no-repeat,
+    url(pelota2.jpg) center / 100px no-repeat; */
+   /*  background: url(pelota2.jpg) center no-repeat;
+    background-size: contain; */
+   /*  background: url(plato.png)center / 180px no-repeat,
+    url(mesa.jpg)center/cover  no-repeat */
+font-size: 24px;
+background-color: mediumseagreen;
+background-clip: content-box;/* se difencia con el paddin */
+}
+#degradado{
+    border: 2px solid black;
+    width: 480px;
+    height: 480px;
+    /* background:linear-gradient(to left ,orange, red);//o 90deg */
+    /* background:repeating-linear-gradient(rgb(163, 163, 247),rgb(254, 253, 253),rgb(163, 163, 247) 10%) */
+/*     background:radial-gradient(circle at top right, blue, red) */
+/* background:repeating-radial-gradient(circle,blue, cyan 15%) */
+background:repeating-linear-gradient(
+    45deg, yellow,yellow 10px, red 10px, red 20px
+)
+}
+p{
+   /*  font-size: 75px; */
+    /* color: red;
+    text-shadow: black 5px -5px ; */
+   /*  color:white ;
+    text-shadow: 1px 1px 5px black,0 0 22px red; */
+  /*   font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 2px;
+    color: darkslateblue;
+    text-shadow: black 3px 3px 1px; */
+/* background-color:coral ;
+width: 400px;
+height: 150px;
+font-size: 70px; */
+/* box-shadow: 10px 20px 20px red; */
+/* box-shadow: black 0px 3px 10px 10px inset; */ /* insert cambia el sombrado hacia adentro */
+
+
+}
+/* .tarjeta{
+    white-space: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.2), 0 6px 20px;
+}
+.numero{
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+
+}
+.titulo{
+    padding: 5px;
+}
+.contenedor{
+    width: 80%;
+    border: 3px solid red;
+}
+img{
+    width: 500px;
+    height: 340px;
+}
+.contenedor img{
+    width: 100%;
+    object-fit:cover ;//object-fit propiedad que define como responde un elemento a la altura y el ancho de su cuadro de contenido propiedades: cover contain none fill
+
+}
+
+.texto_uno{
+    background-color: crimson;
+    color:white;
+    font-size: 38px;
+    padding: 15px 32px;
+    margin: 100px;
+    display: inline-block;
+    position: relative;
+}
+.texto_uno .texto_dos{
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: whitesmoke;
+text-align: center;
+border-radius: 6px;
+padding: 6px 0;
+position: absolute;
+top: 65px;
+left: 80%;
+margin-left: -60px;
+z-index: 1;
+}
+
+
+.texto_uno .texto_dos::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black ;
+}
+
+.texto_uno:hover .texto_dos{
+    visibility:visible
+}
+.padre{
+    font-size: 20px;
+
+}.hijo{
+    font-size: 2rem;
+}
+ */
+
+ html{
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ img{
+    max-width: 100%;
+    height: auto;
+ }
+ .caja{
+    display: flex;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+ }
+ .col{
+    flex: 1;
+    padding: 0 1em;
+ }
+ h1{
+    color: darkslategrey;
+ }
+ .btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: darkslategrey;
+    padding: 1em 4em;
+ }
+ .cont{
+    background: linear-gradient(to left, darkslategrey, lightcyan );
+    padding:10vh 0 ;
+    height: 100vh;
+}
+
+.cont-img{
+    box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, 0.5);
+}
+.cont-title{
+    font-size: 8vw;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 0 0.25em;
+}
+.cont-text{
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 0 0 1.5em;
+}
